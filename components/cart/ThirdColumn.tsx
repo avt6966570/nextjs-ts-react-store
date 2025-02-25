@@ -32,7 +32,7 @@ export default function ThirdColumn({ id, quantity }: { id: string; quantity: nu
             />
             <FormContainer action={removeCartItemAction}>
                 <input type="hidden" name="id" value={id} />
-                <SubmitButton size="sm" className="mt-4" text="remove" />
+                <SubmitButton size="sm" className="mt-4" text="удалить" />
             </FormContainer>
         </div>
     )

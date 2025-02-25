@@ -14,7 +14,7 @@ export default async function CartPage() {
 
     return cartItems.length ? (
         <>
-            <SectionTitle text="Shopping Cart" />
+            <SectionTitle text="Корзина" />
             <div className="mt-8 grid gap-4 lg:grid-cols-12">
                 <div className="lg:col-span-8">
                     <CartItemsList cartItems={cartItems} />
@@ -25,6 +25,6 @@ export default async function CartPage() {
             </div>
         </>
     ) : (
-        <SectionTitle text="Empty cart" />
+        <SectionTitle text="Корзина пуста..." />
     )
 }

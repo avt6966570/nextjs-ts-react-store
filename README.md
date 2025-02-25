@@ -1,5 +1,8 @@
 # Fullstack-App - многостраничный интернет-магазин на Next.JS
 
+### Сайт магазина на *vercel.app*:
+<https://nextjs-ts-react-store.vercel.app/>
+
 ## Используемые технологии
 
 -   Фреймворк - Next.JS
